@@ -33,3 +33,15 @@ theReset.addEventListener("click",function () {
     sum2 = newSum2;
     totalScore2.innerHTML = sum2;
 } );
+
+
+/*
+
+Step 1:
+Complete
+
+Step 2:
+Complete
+
+From Kenn
+*/
