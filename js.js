@@ -25,7 +25,11 @@ function sumPress2() {
 var theReset = document.getElementById("reset");
 
 theReset.addEventListener("click",function () {
-    for(var x = totalScore.innerHTML; x >= totalScore; x--){
-        totalScore.innerHTML = totalScore.innerHTML[x];
-    }
+    var newSum = 0;
+    sum = newSum;
+    totalScore.innerHTML = sum;
+
+    var newSum2 = 0;
+    sum2 = newSum2;
+    totalScore2.innerHTML = sum2;
 } );
